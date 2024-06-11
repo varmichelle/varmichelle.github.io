@@ -109,31 +109,16 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://creiser.github.io/binary_opacity_grid/">
-          <span class="papertitle">Binary Opacity Grids: Capturing Fine Geometric Detail for Mesh-Based View Synthesis
-</span>
+        <a href="https://dl.acm.org/doi/abs/10.5555/3545946.3598671">
+          <span class="papertitle"></span>
         </a>
         <br>
-				<a href="https://creiser.github.io/">Christian Reiser</a>,
-				<a href="http://stephangarbin.com/">Stephan J. Garbin</a>,
-				<a href="https://pratulsrinivasan.github.io/">Pratul Srinivasan</a>,
-				<a href="https://dorverbin.github.io/">Dor Verbin</a>,
-				<a href="https://szeliski.org/RichardSzeliski.htm">Richard Szeliski</a>,
-				<a href="https://bmild.github.io/">Ben Mildenhall</a>,
-				<strong>Jonathan T. Barron</strong>,
-				<a href="https://phogzone.com/">Peter Hedman</a>*,
-				<a href="https://www.cvlibs.net/">Andreas Geiger</a>*		
+				<strong>Michelle Li</strong> and Michael Dennis
+        <br>The Benefits of Power Regularization in Cooperative Reinforcement Learning
+        <em>AAMAS 2023</em> Best Student Paper Finalist
         <br>
-        <em>SIGGRAPH</em>, 2024
-        <br>
-        <a href="https://creiser.github.io/binary_opacity_grid/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=2TPUmGRg8bM">video</a>
-        /
-        <a href="https://arxiv.org/abs/2402.12377">arXiv</a>
-        <p></p>
         <p>
-        Applying anti-aliasing to a discrete opacity grid lets you render a hard representation into a soft image, and this enables highly-detailed mesh recovery.
+          Cooperative Multi-Agent Reinforcement Learning (MARL) algorithms, trained only to optimize task reward, can lead to a concentration of power where the failure or adversarial intent of a single agent could decimate the reward of every agent in the system. In the context of teams of people, it is often useful to explicitly consider how power is distributed to ensure no person becomes a single point of failure. Here, we argue that explicitly regularizing the concentration of power in cooperative RL systems can result in systems which are more robust to single agent failure, adversarial attacks, and incentive changes of co-players. To this end, we define a practical pairwise measure of power that captures the ability of any co-player to influence the ego agent's reward, and then propose a power-regularized objective which balances task reward and power concentration. Given this new objective, we show that there always exists an equilibrium where every agent is playing a power-regularized best-response balancing power and task reward. Moreover, we present two algorithms for training agents towards this power-regularized objective: Sample Based Power Regularization (SBPR), which injects adversarial data during training; and Power Regularization via Intrinsic Motivation (PRIM), which adds an intrinsic motivation to regulate power to the training objective. Our experiments demonstrate that both algorithms successfully balance task reward and power, leading to lower power behavior than the baseline of task-only reward and avoid catastrophic events in case an agent in the system goes off-policy.
         </p>
       </td>
     </tr>
@@ -159,29 +144,16 @@
         </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://smerf-3d.github.io/">
-          <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
+        <a href="https://rohanchitnis.com/papers/2020-PAIR-motivation.pdf">
+          <span class="papertitle">A Unifying Framework for Social Motivation in Human-Robot Interaction</span>
         </a>
         <br>
-		<a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-		<a href="https://phogzone.com/">Peter Hedman*</a>,
-		<a href="https://creiser.github.io/">Christian Reiser</a>,
-		<a href="">Peter Zhizhin</a>,
-		<a href="">Jean-François Thibert</a>,
-        <a href="https://lucic.ai/">Mario Lučić</a>,
-        <a href="https://szeliski.org/">Richard Szeliski</a>,
-		<strong>Jonathan T. Barron</strong>
+        Audrey Wang*, Rohan Chitnis*, <strong>Michelle Li*</strong>, Leslie Pack Kaelbling, Tomás Lozano-Pérez
         <br>
-        <em>SIGGRAPH</em>, 2024
+        <em>AAAI 2020</em> Plan, Activity, and Intent Recognition Workshop
         <br>
-        <a href="https://smerf-3d.github.io/">project page</a>
-        /
-        <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-        /
-        <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
-        <p></p>
         <p>
-        Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
+          We develop a framework for social motivation in humanrobot interaction, where an autonomous agent is rewarded not only by its environment, but also based on the mental state of a human acting within this same environment. We concretize this idea by considering partially observed environments in which the agent’s reward function depends on the human’s belief. In order to effectively reason about what actions to take in such a setting, the agent must estimate both the environment state and the human’s belief. Although instantiations of this idea have been studied previously in various forms, we aim to unify them under a single framework. Our contributions are three-fold: 1) we provide a general POMDP framework for this problem setting and discuss approximations for tractability in practice; 2) we define several reward functions that depend on the human’s belief in different ways and situate them with respect to previous literature; and 3) we conduct qualitative and quantitative experiments in a simulated discrete robotic domain to investigate the emergent behavior of, and tradeoffs among, the proposed reward functions.
         </p>
       </td>
     </tr>
